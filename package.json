@@ -5,18 +5,16 @@
   "description": "rollup start lib",
   "main": "src/main.js",
   "scripts": {
-    "build": "rollup -c",
-    "gulp": "gulp",
-    "rollup:watch": "rollup -c -w",
-    "doc:watch": "lite-server -c config/bs-config.js"
+    "dev": "gulp",
+    "build": "gulp build"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
     "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
     "gulp-rename": "^2.0.0",
     "gulp-uglify": "^3.0.2",
-    "lite-server": "^2.5.4",
     "rollup": "^1.27.14",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",

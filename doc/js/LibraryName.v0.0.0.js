@@ -38,17 +38,12 @@
     _createClass(Fo, [{
       key: "hello",
       value: function hello() {
-        console.log("Hello, ".concat(this.name, ", welcome to here!"));
+        return "welcome, ".concat(this.name, "!");
       }
     }, {
       key: "say",
       value: function say() {
-        console.log("".concat(this.name, ", did you love catty?"));
-      }
-    }, {
-      key: "hi",
-      value: function hi() {
-        console.log("get uot! ".concat(this.name));
+        return "".concat(this.name, ", did you love dogs?");
       }
     }]);
 

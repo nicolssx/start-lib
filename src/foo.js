@@ -3,12 +3,9 @@ export default class Fo{
     this.name=name
   }
   hello(){
-    console.log(`Hello, ${this.name}, welcome to here!`)
+    return `welcome, ${this.name}!`
   }
   say(){
-    console.log(`${this.name}, did you love catty?`)
-  }
-  hi(){
-    console.log(`get uot! ${this.name}`)
+    return `${this.name}, did you love dogs?`
   }
 }

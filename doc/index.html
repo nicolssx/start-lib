@@ -5,7 +5,14 @@
   <title>test</title>
 </head>
 <body>
-<script src="../dist/LibraryName.v0.0.0.js"></script>
-<div>测试</div>
+<div>say hello</div>
+<div id="app"></div>
+<script src="js/LibraryName.v0.0.0.js"></script>
+<script>
+  var lib = new LibraryName('LibraryName')
+  var hello = lib.hello()
+  var say = lib.say()
+  document.getElementById('app').innerHTML=(`${hello}<br>${say}`)
+</script>
 </body>
 </html>
